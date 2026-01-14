@@ -151,12 +151,12 @@ Every row derives from a real matched load or unmatched document — no fabricat
 
 ---
 
-## Version 0.2.0 — Fine-Tuned Matching & Analytics
+## Fine-Tuned Matching & Analytics
 
-Version 0.2.0 turns the CLI matcher into a portfolio-grade data-science project while
-staying true to its identity (a freight **document matcher**). Three layers were added
-on top of the v0.1 extraction + heuristic-matching core, none of which change the
-existing `process` behavior by default:
+This project is a portfolio-grade data-science build that stays true to its identity
+(a freight **document matcher**). Three layers sit on top of the extraction +
+heuristic-matching core, none of which change the existing `process` behavior by
+default:
 
 **1. Deep entity matching (`src/matcher/linkage/`).** The hand-tuned 100-point scorer
 is now one of three strategies. The recommended `--matcher ml` path implements the
